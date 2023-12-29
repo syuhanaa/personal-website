@@ -1,0 +1,31 @@
+body
+
+table, tr, th, td
+		{
+			border: 2px solid black;
+			border-collapse: collapse;
+			font-size: 17px;
+			color: black;
+		}
+		th, td
+		{
+			padding: 6px;
+		}
+		th
+		{
+			background-color: grey;
+			color: lightgrey;
+		}
+		td:nth-child(even)
+		{
+			background-color: darkgrey;
+
+		}
+		td:nth-child(odd)
+		{
+			background-color: lightgrey;
+		}
+		td:hover
+		{
+			background-color: grey;
+		}
